@@ -1,0 +1,106 @@
+.maintitle {
+    font-weight: 300;
+    color: rgb(66, 66, 66);
+}
+
+.card1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid #d9dee3;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px 0 rgba(67, 89, 113, 0.12);
+
+}
+
+.card1:hover {
+    box-shadow: 0 2px 6px 0 rgba(67, 89, 113, 0.25);
+}
+
+.card-header {
+    padding: 1.5rem 1.5rem;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: 0 solid #d9dee3;
+    border-bottom-color: rgb(217, 222, 227);
+    font-weight: 600;
+    color: rgb(66, 66, 66);
+}
+
+table{ padding: 15px;}
+
+th {
+    color: #566a7f;
+  }
+
+.avatar {
+    padding: 5px;
+    border-radius: 4px;
+    width: 70px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avtar_c1{ background-color: #e6f3f4;}
+.avtar_c2{ background-color: #ffe7d6;}
+.avtar_c3{ background-color: #dfffd6;}
+.avtar_c4{ background-color: #f2d6ff;}
+
+.avatar img {
+    width: 40px;
+}
+
+
+div.switcher + div.switcher {
+    margin-top: 10px;
+}
+div.switcher label {
+    padding: 0;
+}
+div.switcher label * {
+    vertical-align: middle;
+}
+div.switcher label input {
+    display: none;
+}
+div.switcher label input+span {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    width: 45px;
+    height: 23px;
+    background: var(--bs-gray);
+    border: 2px solid var(--bs-gray);
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+div.switcher label input+span small {
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    left: 0;
+}
+div.switcher label input:checked+span {
+    background: #33a1d6;
+    border-color: #33a1d6;
+}
+div.switcher label input:checked+span small {
+    left: 50%;
+}
+
+
+
+
+
+
